@@ -28,8 +28,6 @@ PCB design, debugging, simulation, CI, IoT backends, RF, TinyML, and more — on
 
 ---
 
-> ⚠️ **Scope note:** this list is for embedded/firmware/hardware development specifically. For general web/cloud dev tools, see [free-for-dev](https://github.com/ripienaar/free-for-dev) instead — this list is deliberately narrower.
-
 ## :bookmark_tabs: Table of Contents
 
 - [PCB Design & EDA](#triangular_ruler-pcb-design--eda)
