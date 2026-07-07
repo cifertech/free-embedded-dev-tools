@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Suggest a tool via PR instead
+    url: https://github.com/cifertech/free-embedded-dev-tools/blob/main/CONTRIBUTING.md
+    about: For new entries, a PR is usually faster than an issue — see CONTRIBUTING.md for the format.
