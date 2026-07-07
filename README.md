@@ -1,44 +1,62 @@
-# free-embedded-dev-tools
+<div align="center">
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+  <br/>
+  <br/>
+  <p align="center">
+    <a href="https://github.com/cifertech/free-embedded-dev-tools"><img src="https://img.shields.io/static/v1?label=cifertech&message=free-embedded-dev-tools&color=orange&logo=github"/></a>
+    <a href="https://github.com/cifertech/free-embedded-dev-tools"><img src="https://img.shields.io/github/stars/cifertech/free-embedded-dev-tools?style=social"/></a>
+    <a href="https://github.com/cifertech/free-embedded-dev-tools"><img src="https://img.shields.io/github/forks/cifertech/free-embedded-dev-tools?style=social"/></a>
+    <img src="https://img.shields.io/badge/Embedded-Firmware%20%2B%20Hardware-orange?logo=espressif"/>
+    <img src="https://img.shields.io/badge/license-MIT-orange"/>
+  </p>
+  <p align="center">
+    <a href="https://twitter.com/techcifer"><img src="https://img.shields.io/badge/Twitter-orange?logo=x&logoColor=black"/></a>
+    <a href="https://www.instagram.com/cifertech/"><img src="https://img.shields.io/badge/Instagram-orange?logo=instagram&logoColor=black"/></a>
+    <a href="https://www.youtube.com/c/techcifer"><img src="https://img.shields.io/badge/YouTube-orange?logo=youtube&logoColor=black"/></a>
+    <a href="https://cifertech.net/"><img src="https://img.shields.io/badge/Website-orange?logo=googlechrome&logoColor=black"/></a>
+  </p>
+</div>
+&nbsp;
 
-A curated, actively maintained list of **free tools and resources for embedded, firmware, and hardware development** — PCB design, debugging, simulation, CI, IoT backends, RF, TinyML, and component sourcing.
+<div align="center">
 
-General "free developer tools" lists (like `free-for-dev`) are built for web/cloud dev and barely touch this space. This list is scoped specifically to embedded/hardware work — the tools you actually reach for when a project involves a microcontroller, a PCB, or a radio.
+**A curated list of free tools and resources for embedded, firmware, and hardware development.**
 
-**[See something outdated, missing, or wrong? PRs are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).](CONTRIBUTING.md)**
+PCB design, debugging, simulation, CI, IoT backends, RF, TinyML, and more — one list, kept current.
 
----
-
-## Table of Contents
-
-- [PCB Design \& EDA](#pcb-design--eda)
-- [Debug Probes \& JTAG/SWD](#debug-probes--jtagswd)
-- [Simulation](#simulation)
-- [Logic Analyzers \& Signal Tools](#logic-analyzers--signal-tools)
-- [CI / Build / Firmware Testing](#ci--build--firmware-testing)
-- [Free IoT / Cloud Backends](#free-iot--cloud-backends)
-- [Free Firmware OTA Hosting](#free-firmware-ota-hosting)
-- [Enclosure \& 3D Printing](#enclosure--3d-printing)
-- [RF / Antenna Tools](#rf--antenna-tools)
-- [Component Search \& Datasheets](#component-search--datasheets)
-- [Power Supply \& Regulator Design](#power-supply--regulator-design)
-- [RTOS \& Bootloader Frameworks](#rtos--bootloader-frameworks)
-- [Code Quality, Static Analysis \& Testing](#code-quality-static-analysis--testing)
-- [TinyML / Edge AI](#tinyml--edge-ai)
-- [Power Profiling \& Current Measurement](#power-profiling--current-measurement)
-- [Parts Inventory \& BOM Management](#parts-inventory--bom-management)
-- [Wireless Pre-Compliance \& Regulatory Lookup](#wireless-pre-compliance--regulatory-lookup)
-- [Hardware Version Control \& Collaboration](#hardware-version-control--collaboration)
-- [Free Courses \& Learning](#free-courses--learning)
-- [Component Sourcing \& Free Samples](#component-sourcing--free-samples)
-- [Contributing](#contributing)
+</div>
 
 ---
 
-## PCB Design & EDA
+> ⚠️ **Scope note:** this list is for embedded/firmware/hardware development specifically. For general web/cloud dev tools, see [free-for-dev](https://github.com/ripienaar/free-for-dev) instead — this list is deliberately narrower.
+
+## :bookmark_tabs: Table of Contents
+
+- [PCB Design & EDA](#triangular_ruler-pcb-design--eda)
+- [Debug Probes & JTAG/SWD](#mag-debug-probes--jtagswd)
+- [Simulation](#cyclone-simulation)
+- [Logic Analyzers & Signal Tools](#chart_with_upwards_trend-logic-analyzers--signal-tools)
+- [CI / Build / Firmware Testing](#gear-ci--build--firmware-testing)
+- [Free IoT / Cloud Backends](#cloud-free-iot--cloud-backends)
+- [Free Firmware OTA Hosting](#satellite-free-firmware-ota-hosting)
+- [Enclosure & 3D Printing](#package-enclosure--3d-printing)
+- [RF / Antenna Tools](#satellite_orbital-rf--antenna-tools)
+- [Component Search & Datasheets](#mag_right-component-search--datasheets)
+- [Power Supply & Regulator Design](#zap-power-supply--regulator-design)
+- [RTOS & Bootloader Frameworks](#arrows_counterclockwise-rtos--bootloader-frameworks)
+- [Code Quality, Static Analysis & Testing](#white_check_mark-code-quality-static-analysis--testing)
+- [TinyML / Edge AI](#robot-tinyml--edge-ai)
+- [Power Profiling & Current Measurement](#battery-power-profiling--current-measurement)
+- [Parts Inventory & BOM Management](#package-parts-inventory--bom-management)
+- [Wireless Pre-Compliance & Regulatory Lookup](#scales-wireless-pre-compliance--regulatory-lookup)
+- [Hardware Version Control & Collaboration](#arrows_clockwise-hardware-version-control--collaboration)
+- [Free Courses & Learning](#books-free-courses--learning)
+- [Component Sourcing & Free Samples](#gift-component-sourcing--free-samples)
+- [Contributing](#handshake-contributing)
+
+---
+
+## :triangular_ruler: PCB Design & EDA
 
 | Tool | What's Free | Limits / Notes |
 |---|---|---|
@@ -48,7 +66,7 @@ General "free developer tools" lists (like `free-for-dev`) are built for web/clo
 | [LibrePCB](https://librepcb.org/) | Fully free and open, no limits | Smaller community than KiCad but genuinely unrestricted. |
 | [Quilter](https://www.quilter.ai/) (AI routing) | Free tier, full routing engine | Plugs into KiCad/Altium/Cadence as a routing add-on, not a full EDA suite. Free-tier designs are used to train their models — don't upload anything proprietary. |
 
-## Debug Probes & JTAG/SWD
+## :mag: Debug Probes & JTAG/SWD
 
 | Tool | What's Free | Notes |
 |---|---|---|
@@ -58,7 +76,7 @@ General "free developer tools" lists (like `free-for-dev`) are built for web/clo
 | [J-Link EDU / EDU Mini](https://www.segger.com/) | Free-as-in-price for **non-commercial** use only | Real SEGGER hardware/software, but licensing explicitly forbids commercial work — check this before using it on a paid project. |
 | [PlatformIO Unified Debugger](https://docs.platformio.org/en/latest/plus/debugging.html) | Free with PlatformIO Core | Zero-config debugging across ~20 supported probes (ST-Link, J-Link, ESP-Prog, Black Magic, etc.) from one interface. |
 
-## Simulation
+## :cyclone: Simulation
 
 | Tool | What's Free | Notes |
 |---|---|---|
@@ -67,14 +85,14 @@ General "free developer tools" lists (like `free-for-dev`) are built for web/clo
 | [Wokwi](https://wokwi.com/) | Free tier, browser-based | Simulates ESP32/Arduino/Pi Pico with virtual peripherals (sensors, displays) before you touch real hardware — genuinely useful for firmware logic testing pre-flash. |
 | [Renode](https://renode.io/) | Free, open-source | Full system simulation (CPU + peripherals + network) for testing firmware without hardware; used in PlatformIO's debug backends too. |
 
-## Logic Analyzers & Signal Tools
+## :chart_with_upwards_trend: Logic Analyzers & Signal Tools
 
 | Tool | What's Free | Notes |
 |---|---|---|
 | [PulseView](https://sigrok.org/wiki/PulseView) (sigrok) | Free, open-source | GUI for a huge range of cheap USB logic analyzers (including generic $10 24MHz clones) with protocol decoders for UART/SPI/I2C/etc. |
 | [Saleae Logic software](https://www.saleae.com/) | Free software, but requires their (paid) hardware | Software itself has no license fee — only relevant if you already own a Saleae device. |
 
-## CI / Build / Firmware Testing
+## :gear: CI / Build / Firmware Testing
 
 | Tool | What's Free | Notes |
 |---|---|---|
@@ -82,7 +100,7 @@ General "free developer tools" lists (like `free-for-dev`) are built for web/clo
 | [PlatformIO Core](https://platformio.org/) | Free CLI + build system | Multi-board, multi-framework builds without vendor IDE lock-in. |
 | [Wokwi CI](https://docs.wokwi.com/vscode/ci-server) | Free tier for CI-triggered simulation | Run simulated hardware-in-the-loop tests inside GitHub Actions instead of needing physical boards in CI. |
 
-## Free IoT / Cloud Backends
+## :cloud: Free IoT / Cloud Backends
 
 | Service | What's Free | Limits |
 |---|---|---|
@@ -91,7 +109,7 @@ General "free developer tools" lists (like `free-for-dev`) are built for web/clo
 | [Adafruit IO](https://io.adafruit.com/) | Free tier | Rate-limited but purpose-built for hobbyist IoT dashboards, works great with ESP32/Arduino out of the box. |
 | [Firebase Spark plan](https://firebase.google.com/pricing) | Free tier | Realtime DB + hosting, generous enough for small device fleets. |
 
-## Free Firmware OTA Hosting
+## :satellite: Free Firmware OTA Hosting
 
 | Approach | What's Free | Notes |
 |---|---|---|
@@ -102,7 +120,7 @@ General "free developer tools" lists (like `free-for-dev`) are built for web/clo
 
 > Reality check: a GitHub Releases manifest is fine for a handful of devices you personally maintain. Once you're shipping to end users, budget for real signing + rollback — a bad OTA push to a partition scheme with no fallback is how devices get bricked in the field.
 
-## Enclosure & 3D Printing
+## :package: Enclosure & 3D Printing
 
 | Tool | What's Free | Notes |
 |---|---|---|
@@ -112,7 +130,7 @@ General "free developer tools" lists (like `free-for-dev`) are built for web/clo
 | [PrusaSlicer](https://www.prusa3d.com/page/prusaslicer_424/) / [Cura](https://ultimaker.com/software/ultimaker-cura/) | Fully free | Standard slicers, work with virtually any FDM printer, not locked to one vendor. |
 | [Printables](https://www.printables.com/) / [Thingiverse](https://www.thingiverse.com/) | Free STL hosting + huge existing library | Worth checking before modeling a standard enclosure shape from scratch — standoffs, DIN rail clips, and battery holders are almost always already out there. |
 
-## RF / Antenna Tools
+## :satellite_orbital: RF / Antenna Tools
 
 | Tool | What's Free | Notes |
 |---|---|---|
@@ -121,7 +139,7 @@ General "free developer tools" lists (like `free-for-dev`) are built for web/clo
 | [SimSmith](https://www.ae6ty.com/Smith_Charts.html) | Free | Smith chart tool for matching network design — genuinely useful when tuning antenna matching on ESP32-DIV-class RF front ends. |
 | [rtl_433](https://github.com/merbanan/rtl_433) / [GNU Radio](https://www.gnuradio.org/) | Free, open-source | Standard free SDR tooling for decoding and analyzing SubGHz/ISM-band signals during RF firmware development. |
 
-## Component Search & Datasheets
+## :mag_right: Component Search & Datasheets
 
 | Tool | What's Free | Notes |
 |---|---|---|
@@ -130,7 +148,7 @@ General "free developer tools" lists (like `free-for-dev`) are built for web/clo
 | [DigiKey](https://www.digikey.com/) / [Mouser](https://www.mouser.com/) / [LCSC](https://www.lcsc.com/) parametric search | Free | Each distributor's own parametric filter search is free and often more detailed than aggregators for that distributor's stock specifically. |
 | [SnapMagic (SnapEDA)](https://www.snapeda.com/) | Free schematic symbols + PCB footprints for millions of parts | Downloadable straight into KiCad/Altium/Eagle format — saves the single most tedious part of adding a new component to a design. |
 
-## Power Supply & Regulator Design
+## :zap: Power Supply & Regulator Design
 
 | Tool | What's Free | Notes |
 |---|---|---|
@@ -138,7 +156,7 @@ General "free developer tools" lists (like `free-for-dev`) are built for web/clo
 | [Analog Devices ADIsimPower](https://www.analog.com/) | Free | Same category of tool, scoped to ADI's regulator lineup. |
 | [Battery life / capacity calculators](https://www.digikey.com/en/resources/design-tools) (various, DigiKey's tool hub) | Free | Quick sanity checks for runtime estimates before committing to a battery + duty-cycle design. |
 
-## RTOS & Bootloader Frameworks
+## :arrows_counterclockwise: RTOS & Bootloader Frameworks
 
 | Tool | What's Free | Notes |
 |---|---|---|
@@ -146,7 +164,7 @@ General "free developer tools" lists (like `free-for-dev`) are built for web/clo
 | [Zephyr RTOS](https://www.zephyrproject.org/) | Free, open-source | Broader hardware support than FreeRTOS alone (many non-Espressif chips), Linux Foundation-backed, a real option if a future project moves off ESP32. |
 | [MCUboot](https://www.mcuboot.com/) | Free, open-source | The standard secure bootloader for signed, rollback-safe firmware updates — pairs naturally with the OTA hosting section above once you outgrow a naive re-flash. |
 
-## Code Quality, Static Analysis & Testing
+## :white_check_mark: Code Quality, Static Analysis & Testing
 
 | Tool | What's Free | Notes |
 |---|---|---|
@@ -156,7 +174,7 @@ General "free developer tools" lists (like `free-for-dev`) are built for web/clo
 | [PlatformIO Unit Testing](https://docs.platformio.org/en/latest/advanced/unit-testing/index.html) | Free, built into PlatformIO Core | Runs the same test suite on native host and on real target hardware from one config. |
 | [PVS-Studio](https://pvs-studio.com/en/pvs-studio/) free license | Free for open-source projects | Commercial-grade static analyzer, free if your repo qualifies as open-source — worth applying for on a starred project like ESP32-DIV. |
 
-## TinyML / Edge AI
+## :robot: TinyML / Edge AI
 
 | Tool | What's Free | Notes |
 |---|---|---|
@@ -165,7 +183,7 @@ General "free developer tools" lists (like `free-for-dev`) are built for web/clo
 | [CMSIS-NN](https://github.com/ARM-software/CMSIS-NN) | Free, open-source | ARM's hand-optimized NN kernels for Cortex-M — meaningful speedup over generic TFLM ops on supported chips. |
 | [ESP-DL](https://github.com/espressif/esp-dl) | Free, open-source | Espressif's own inference library tuned specifically for ESP32-S3's vector instructions — the most direct fit if you're staying in the ESP32 ecosystem for on-device ML (relevant to anything in the Wispr/adaptive-cal direction). |
 
-## Power Profiling & Current Measurement
+## :battery: Power Profiling & Current Measurement
 
 | Tool | What's Free | Notes |
 |---|---|---|
@@ -173,7 +191,7 @@ General "free developer tools" lists (like `free-for-dev`) are built for web/clo
 | [Joulescope UI](https://www.joulescope.com/) | Free software (requires their hardware) | Similar category, wide dynamic range for capturing both sleep current and active-radio current spikes in one capture. |
 | [ESP-IDF power management logging](https://docs.espressif.com/) | Free, built into ESP-IDF | Software-only estimate (not a substitute for a real measurement, but free and zero extra hardware for a first-pass sanity check). |
 
-## Parts Inventory & BOM Management
+## :package: Parts Inventory & BOM Management
 
 | Tool | What's Free | Notes |
 |---|---|---|
@@ -182,7 +200,7 @@ General "free developer tools" lists (like `free-for-dev`) are built for web/clo
 | [Part-DB](https://github.com/Part-DB/Part-DB-server) | Free, open-source, self-hosted | Similar scope to InvenTree, also has KiCad integration; a reasonable alternative if InvenTree's Django/React stack is heavier than you want to self-host. |
 | [PartKeepr](https://github.com/partkeepr/PartKeepr) | Free, open-source | Older, simpler option, originally built for hackerspaces with multiple users sharing one stock of parts. |
 
-## Wireless Pre-Compliance & Regulatory Lookup
+## :scales: Wireless Pre-Compliance & Regulatory Lookup
 
 | Tool | What's Free | Notes |
 |---|---|---|
@@ -193,7 +211,7 @@ General "free developer tools" lists (like `free-for-dev`) are built for web/clo
 
 > Reality check: nothing here replaces an actual accredited test lab before you sell a product with a radio in it. These are free ways to avoid an expensive surprise at that stage, not a substitute for it.
 
-## Hardware Version Control & Collaboration
+## :arrows_clockwise: Hardware Version Control & Collaboration
 
 | Tool | What's Free | Notes |
 |---|---|---|
@@ -201,7 +219,7 @@ General "free developer tools" lists (like `free-for-dev`) are built for web/clo
 | [KiCad's built-in git integration](https://www.kicad.org/) | Free, built-in (KiCad 7+) | Native project-history and diffing inside the KiCad GUI itself, no separate tool needed for basic version tracking. |
 | [OSHWLab](https://oshwlab.com/) | Free project hosting | EasyEDA's project-sharing platform if you want a public, forkable hardware project page similar to a GitHub repo, specifically for EDA files. |
 
-## Free Courses & Learning
+## :books: Free Courses & Learning
 
 | Resource | What's Free | Notes |
 |---|---|---|
@@ -210,7 +228,7 @@ General "free developer tools" lists (like `free-for-dev`) are built for web/clo
 | [KiCad official documentation + forum](https://forum.kicad.info/) | Free | Active community, most common questions already answered — search before posting. |
 | [Interrupt (Memfault's blog)](https://interrupt.memfault.com/) | Free | Deep, practical firmware engineering write-ups (debug tooling, OTA, power profiling) from working embedded engineers — one of the better free technical resources in the space. |
 
-## Component Sourcing & Free Samples
+## :gift: Component Sourcing & Free Samples
 
 | Source | What's Free | Notes |
 |---|---|---|
@@ -221,14 +239,29 @@ General "free developer tools" lists (like `free-for-dev`) are built for web/clo
 
 ---
 
-## Contributing
+## :handshake: Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines. Short version: one row per tool, keep the "what's free" column honest (no "free trial" entries unless clearly labeled as such), and note real limits so nobody gets surprised mid-project.
 
-## Disclaimer
+## :warning: Disclaimer
 
 Free tiers, pricing, and limits change without notice. Entries here reflect the best information available at time of writing — always double-check current terms on the provider's own site before relying on something for a production project. This list explicitly excludes anything that isn't a legitimate, above-board offering (e.g. abusing trial accounts, ToS violations).
 
----
+## :warning: License
 
-<sub>If this list saved you time, consider starring the repo — it's the main way other people find it.</sub>
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
+
+💬 Found something outdated or missing? [Open an Issue](https://github.com/cifertech/free-embedded-dev-tools/issues)
+
+⭐ Find this useful? Star the repo!
+
+🛠 Want to contribute? Fork it and submit a pull request.
+
+<!-- Contact -->
+## :handshake: Contact
+
+▶ Support me on Patreon [patreon.com/cifertech](https://www.patreon.com/cifertech)
+
+CiferTech - [@techcifer](https://twitter.com/techcifer) - CiferTech@gmail.com
+
+Project Link: [https://github.com/cifertech/free-embedded-dev-tools](https://github.com/cifertech/free-embedded-dev-tools)
