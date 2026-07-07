@@ -200,7 +200,7 @@ PCB design, debugging, simulation, CI, IoT backends, RF, TinyML, and more — on
 | [Part-DB](https://github.com/Part-DB/Part-DB-server) | Free, open-source, self-hosted | Similar scope to InvenTree, also has KiCad integration; a reasonable alternative if InvenTree's Django/React stack is heavier than you want to self-host. |
 | [PartKeepr](https://github.com/partkeepr/PartKeepr) | Free, open-source | Older, simpler option, originally built for hackerspaces with multiple users sharing one stock of parts. |
 
-## :scales: Wireless Pre-Compliance & Regulatory Lookup
+##  Wireless Pre-Compliance & Regulatory Lookup
 
 | Tool | What's Free | Notes |
 |---|---|---|
@@ -248,8 +248,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines. Short version: one row pe
 Free tiers, pricing, and limits change without notice. Entries here reflect the best information available at time of writing — always double-check current terms on the provider's own site before relying on something for a production project. This list explicitly excludes anything that isn't a legitimate, above-board offering (e.g. abusing trial accounts, ToS violations).
 
 ## :warning: License
-
-Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 💬 Found something outdated or missing? [Open an Issue](https://github.com/cifertech/free-embedded-dev-tools/issues)
 
