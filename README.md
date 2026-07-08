@@ -1,17 +1,18 @@
 <div align="center">
-
+  <img src="https://github.com/user-attachments/assets/c5daa3b8-81a7-43ac-97c2-cee9937f0b7c" alt="free-embedded-dev-tools Banner" width="100%"/>
+  <br/>
+  <br/>
   <p align="center">
-    <a href="https://github.com/cifertech/free-embedded-dev-tools"><img src="https://img.shields.io/static/v1?label=cifertech&message=free-embedded-dev-tools&color=orange&logo=github"/></a>
+    <a href="https://github.com/cifertech/free-embedded-dev-tools"><img src="https://img.shields.io/static/v1?label=cifertech&message=free-embedded-dev-tools&color=00bcd4&logo=github"/></a>
     <a href="https://github.com/cifertech/free-embedded-dev-tools"><img src="https://img.shields.io/github/stars/cifertech/free-embedded-dev-tools?style=social"/></a>
     <a href="https://github.com/cifertech/free-embedded-dev-tools"><img src="https://img.shields.io/github/forks/cifertech/free-embedded-dev-tools?style=social"/></a>
-    <img src="https://img.shields.io/badge/Embedded-Firmware%20%2B%20Hardware-orange?logo=espressif"/>
-    <img src="https://img.shields.io/badge/license-MIT-orange"/>
+    <img src="https://img.shields.io/badge/license-MIT-00bcd4"/>
   </p>
   <p align="center">
-    <a href="https://twitter.com/techcifer"><img src="https://img.shields.io/badge/Twitter-orange?logo=x&logoColor=black"/></a>
-    <a href="https://www.instagram.com/cifertech/"><img src="https://img.shields.io/badge/Instagram-orange?logo=instagram&logoColor=black"/></a>
-    <a href="https://www.youtube.com/c/techcifer"><img src="https://img.shields.io/badge/YouTube-orange?logo=youtube&logoColor=black"/></a>
-    <a href="https://cifertech.net/"><img src="https://img.shields.io/badge/Website-orange?logo=googlechrome&logoColor=black"/></a>
+    <a href="https://twitter.com/techcifer"><img src="https://img.shields.io/badge/Twitter-00bcd4?logo=x&logoColor=black"/></a>
+    <a href="https://www.instagram.com/cifertech/"><img src="https://img.shields.io/badge/Instagram-00bcd4?logo=instagram&logoColor=black"/></a>
+    <a href="https://www.youtube.com/c/techcifer"><img src="https://img.shields.io/badge/YouTube-00bcd4?logo=youtube&logoColor=black"/></a>
+    <a href="https://cifertech.net/"><img src="https://img.shields.io/badge/Website-00bcd4?logo=googlechrome&logoColor=black"/></a>
   </p>
 
 **A curated list of free tools and resources for embedded, firmware, and hardware development.**
@@ -20,7 +21,7 @@ PCB design, debugging, simulation, CI, IoT backends, RF, TinyML, and more.
 
 </div>
 
----
+&nbsp;
 
 ## :bookmark_tabs: Table of Contents
 
