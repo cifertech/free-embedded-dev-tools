@@ -59,6 +59,14 @@ PCB design, debugging, simulation, CI, IoT backends, RF, TinyML, and more.
 | [LibrePCB](https://librepcb.org/) | Fully free and open | Smaller community than KiCad, but unrestricted. |
 | [Quilter](https://www.quilter.ai/) (AI routing) | Free tier, full routing engine | Add-on for KiCad/Altium/Cadence, not a full EDA suite. Free-tier designs may be used for model training; avoid proprietary designs. |
 
+## :desktop_computer: Embedded IDEs & Editor Extensions
+
+| Tool | What's Free | Notes |
+|---|---|---|
+| [Arduino IDE](https://www.arduino.cc/en/software) | Free, open-source IDE for Arduino sketches | Beginner-friendly; supports boards and libraries through built-in managers. Best for Arduino-style workflows. |
+| [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html) | Free IDE for STM32 development | Eclipse-based desktop IDE plus newer VS Code-based variant; mainly useful inside the STM32 ecosystem. |
+| [PlatformIO IDE](https://platformio.org/) | Free editor integration around PlatformIO Core | Strong multi-board workflow; often used through VS Code. |
+
 ## :mag: Debug Probes & JTAG/SWD
 
 | Tool | What's Free | Notes |
