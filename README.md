@@ -58,6 +58,7 @@ PCB design, debugging, simulation, CI, IoT backends, RF, TinyML, and more.
 | [Altium CircuitMaker](https://circuitmaker.com/) | Full Altium-engine EDA | Windows-only, cloud-hosted projects, ~5 private projects max. |
 | [LibrePCB](https://librepcb.org/) | Fully free and open | Smaller community than KiCad, but unrestricted. |
 | [Quilter](https://www.quilter.ai/) (AI routing) | Free tier, full routing engine | Add-on for KiCad/Altium/Cadence, not a full EDA suite. Free-tier designs may be used for model training; avoid proprietary designs. |
+| [PCBA Partner BOM & Placement Checker](https://pcbapartner.com/tools/bom-checker/) | Free browser-based checks; no sign-in; files stay in browser memory | Compares BOM-to-placement references, DNP status, and package names; supports XLSX/CSV/TSV/TXT and KiCad `.pos` (5 MB / 10,000 rows per file). THT/Other BOM rows are excluded from missing-placement checks. Does not verify footprints, physical placement, electrical function, or manufacturing readiness. |
 
 ## :mag: Debug Probes & JTAG/SWD
 
