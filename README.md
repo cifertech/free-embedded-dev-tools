@@ -34,6 +34,7 @@ PCB design, debugging, simulation, CI, IoT backends, RF, TinyML, and more.
 - [Free Firmware OTA Hosting](#satellite-free-firmware-ota-hosting)
 - [Enclosure & 3D Printing](#package-enclosure--3d-printing)
 - [RF / Antenna Tools](#satellite_orbital-rf--antenna-tools)
+- [Wireless & Protocol Planning Tools](#wireless--protocol-planning-tools)
 - [Component Search & Datasheets](#mag_right-component-search--datasheets)
 - [Power Supply & Regulator Design](#zap-power-supply--regulator-design)
 - [RTOS & Bootloader Frameworks](#arrows_counterclockwise-rtos--bootloader-frameworks)
@@ -131,6 +132,9 @@ PCB design, debugging, simulation, CI, IoT backends, RF, TinyML, and more.
 | [openEMS](https://www.openems.de/) | Free, open-source FDTD simulator | 3D EM simulation for PCB antennas and RF structures. Heavier setup than NEC2. |
 | [SimSmith](https://www.ae6ty.com/Smith_Charts.html) | Free | Smith chart tool for matching network design. |
 | [rtl_433](https://github.com/merbanan/rtl_433) / [GNU Radio](https://www.gnuradio.org/) | Free, open-source | SDR tooling for SubGHz/ISM-band signal decoding and analysis. |
+
+## Wireless & Protocol Planning Tools
+| [BLE Throughput & Transfer Planner](https://embeddednote.com/en/tools/ble-throughput-calculator/) | Free browser-based GATT throughput and transfer-time estimates; no signup required. | Models ATT/L2CAP overhead, link-layer fragmentation, PHY airtime, and connection-event scheduling. Estimates only, not measured device throughput. |
 
 ## :mag_right: Component Search & Datasheets
 
