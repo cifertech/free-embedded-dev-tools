@@ -134,6 +134,9 @@ PCB design, debugging, simulation, CI, IoT backends, RF, TinyML, and more.
 | [rtl_433](https://github.com/merbanan/rtl_433) / [GNU Radio](https://www.gnuradio.org/) | Free, open-source | SDR tooling for SubGHz/ISM-band signal decoding and analysis. |
 
 ## Wireless & Protocol Planning Tools
+
+| Tool | What's Free | Notes |
+|---|---|---|
 | [BLE Throughput & Transfer Planner](https://embeddednote.com/en/tools/ble-throughput-calculator/) | Free browser-based GATT throughput and transfer-time estimates; no signup required. | Models ATT/L2CAP overhead, link-layer fragmentation, PHY airtime, and connection-event scheduling. Estimates only, not measured device throughput. |
 
 ## :mag_right: Component Search & Datasheets
