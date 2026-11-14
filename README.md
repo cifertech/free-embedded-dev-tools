@@ -76,6 +76,7 @@ PCB design, debugging, simulation, CI, IoT backends, RF, TinyML, and more.
 | [ngspice](https://ngspice.sourceforge.io/) / KiCad's built-in SPICE | Free, open-source | Circuit-level simulation in KiCad's schematic editor. |
 | [Falstad Circuit Simulator](https://www.falstad.com/circuit/) | Free, browser-based | Good for quick intuition and teaching, not design verification. |
 | [Wokwi](https://wokwi.com/) | Free tier, browser-based | Simulates ESP32/Arduino/Pi Pico with virtual peripherals before hardware is available. |
+| [LabWired](https://labwired.com/circuit-simulator/) | Free plan: browser Playground, public labs, sharing, and MCP; no card required | Runs supported MCU firmware with linear R/L/C circuit and GPIO models. No nonlinear SPICE devices, AC/DC sweeps, or vendor SPICE libraries in the browser. Private projects and advanced runs require paid plans. |
 | [Renode](https://renode.io/) | Free, open-source | Full system simulation (CPU, peripherals, network) for firmware testing without hardware. |
 
 ## :chart_with_upwards_trend: Logic Analyzers & Signal Tools
